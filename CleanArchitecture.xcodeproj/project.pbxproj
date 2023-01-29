@@ -70,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				4EAD7F512987005400B2D0B2 /* Features */,
-				4EAD7F3B2986FC6700B2D0B2 /* Domain */,
-				4EAD7F3A2986FC5E00B2D0B2 /* Data */,
 				4EAD7F392986FC5500B2D0B2 /* Core */,
 				4EAD7F2B2986FC1C00B2D0B2 /* CleanArchitectureApp.swift */,
 				4EAD7F2D2986FC1C00B2D0B2 /* ContentView.swift */,
@@ -185,8 +183,9 @@
 		4EAD7F522987005E00B2D0B2 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				4EAD7F56298700A500B2D0B2 /* View */,
-				4EAD7F552987007C00B2D0B2 /* Controller */,
+				4EAD7F3A2986FC5E00B2D0B2 /* Data */,
+				4EAD7F3B2986FC6700B2D0B2 /* Domain */,
+				4EAD7F56298700A500B2D0B2 /* Presentation */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -206,7 +205,16 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		4EAD7F56298700A500B2D0B2 /* View */ = {
+		4EAD7F56298700A500B2D0B2 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				4EAD7F552987007C00B2D0B2 /* Controller */,
+				4EAD7F5B29870C8B00B2D0B2 /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		4EAD7F5B29870C8B00B2D0B2 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				4EAD7F57298700B700B2D0B2 /* HomeView.swift */,

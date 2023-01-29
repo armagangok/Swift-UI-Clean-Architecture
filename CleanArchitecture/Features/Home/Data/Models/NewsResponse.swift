@@ -1,5 +1,5 @@
 //
-//  NewsModel.swift
+//  NewsResponse.swift
 //  CleanArchitecture
 //
 //  Created by Armağan Gök on 29.01.2023.
@@ -13,7 +13,15 @@
 import Foundation
 
 // MARK: - NewsResponse
-struct NewsResponse: Codable {
+class NewsResponse: Codable {
     let offset, number, available: Int
     let news: [News]
+
+    init(offset: Int, number: Int, available: Int, news: [News]) {
+        self.offset = offset
+        self.number = number
+        self.available = available
+        self.news = news
+    }
 }
+

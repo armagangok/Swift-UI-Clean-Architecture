@@ -21,6 +21,7 @@
 		4EAD7F58298700B700B2D0B2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAD7F57298700B700B2D0B2 /* HomeView.swift */; };
 		4EAD7F5A298701DB00B2D0B2 /* NewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAD7F59298701DB00B2D0B2 /* NewsController.swift */; };
 		4EAD7F5D2987185000B2D0B2 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAD7F5C2987185000B2D0B2 /* NewsModel.swift */; };
+		4EE341482988630000CBED52 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE341472988630000CBED52 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		4EAD7F57298700B700B2D0B2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4EAD7F59298701DB00B2D0B2 /* NewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsController.swift; sourceTree = "<group>"; };
 		4EAD7F5C2987185000B2D0B2 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		4EE341472988630000CBED52 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		4EAD7F392986FC5500B2D0B2 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				4EE34146298862ED00CBED52 /* Network */,
 				4EAD7F452986FFBC00B2D0B2 /* Components */,
 			);
 			path = Core;
@@ -225,6 +228,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		4EE34146298862ED00CBED52 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4EE341472988630000CBED52 /* Constants.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -302,6 +313,7 @@
 				4EAD7F442986FE3700B2D0B2 /* NewsService.swift in Sources */,
 				4EAD7F58298700B700B2D0B2 /* HomeView.swift in Sources */,
 				4EAD7F472986FFCA00B2D0B2 /* Components.swift in Sources */,
+				4EE341482988630000CBED52 /* Constants.swift in Sources */,
 				4EAD7F3D2986FCA900B2D0B2 /* NewsResponse.swift in Sources */,
 				4EAD7F4E2987002E00B2D0B2 /* NewsRepository.swift in Sources */,
 				4EAD7F2E2986FC1C00B2D0B2 /* ContentView.swift in Sources */,

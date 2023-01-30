@@ -8,4 +8,5 @@
 import Foundation
 
 protocol NewsService{
+    func fetchNews(keyword:String) -> NewsResponse?
 }

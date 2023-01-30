@@ -7,13 +7,12 @@
 
 // This file was generated from JSON Schema using quicktype, do not modify it directly.
 // To parse the JSON, add this file to your project and do:
-//
-//   let newsResponse = try? JSONDecoder().decode(NewsResponse.self, from: jsonData)
+// let newsResponse = try? JSONDecoder().decode(NewsResponse.self, from: jsonData)
 
 import Foundation
 
 // MARK: - NewsResponse
-class NewsResponse: Codable {
+class NewsResponse: Decodable {
     let offset, number, available: Int
     let news: [News]
 
@@ -24,4 +23,3 @@ class NewsResponse: Codable {
         self.news = news
     }
 }
-

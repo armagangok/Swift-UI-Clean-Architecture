@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - News
-class News: Codable {
+class News: Decodable {
     let id: Int
     let title, text: String
     let url: String

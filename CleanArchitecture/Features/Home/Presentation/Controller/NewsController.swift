@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+
+class NewsController: ObservableObject {
+    var newsResponse: NewsResponse?
+    
+    func fetchNews( keyword: String) {
+        newsResponse = NewsServiceImp().fetchNews(keyword: keyword)
+    }
+}
